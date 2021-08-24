@@ -12,7 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #67a5d4;
+  background: #b167d4;
 }
 
 .card {
@@ -56,4 +56,34 @@ body {
   font-size: 0.8em;
   font-weight: 400;
   color: #999;
+}
+
+.navigation {
+  position: relative;
+  top: 25px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px 0;
+}
+
+.navigation li {
+  list-style: none;
+  margin: 15px 0;
+}
+
+.navigation li a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #555;
+  font-size: 1.1em;
+  transition: 0.25s;
+}
+
+.navigation li a:hover {
+  color: #de36ff;
+}
+
+.navigation li a i {
+  font-size: 1.6em;
+  margin-right: 15px;
 }
